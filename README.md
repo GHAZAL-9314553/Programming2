@@ -39,6 +39,7 @@ Assignment 1.4  https://sport050.nl/sportaanbieders/alle-aanbieders/
 Assignment 2.3   sklearn moon-dataset ,  prep.py script to obtain the New York City Airline data, consisting of multiple CSV files.
 Assignment 2.5 all_bacilli.tsv on assemblix2019
 
-License: Distributed under the Mozilla license. See LICENSE for more information.
+License: Distributed under the  Apache License Version 2.0, January 2004
+See  http://www.apache.org/licenses/ for more information.
 
 Questions? Email: g.s.hosseini.japalagh@st.hanze.nl
