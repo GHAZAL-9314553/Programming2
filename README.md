@@ -11,7 +11,9 @@ By completing Assignment 1.1 and documenting our findings in the README file, we
 
  Assignment 1.3 The purpose of this assignment is to build a relatively complex system that involves multiple classes working together to process and analyze temperature anomaly data.
  
- Assignment 1.3 The purpose of this assignment is to explore and practice concepts related to generators, list comprehensions, and code refactoring. The exercises focus on improving code readability, maintainability, and adherence to best practices.
+ Assignment 1.4 The purpose of this assignment is to explore and practice concepts related to generators, list comprehensions, and code refactoring. The exercises focus on improving code readability, maintainability, and adherence to best practices.
+
+ Assignment 2.1 The purpose of this assignment is to gain practical experience in implementing a client-server architecture and understanding the concepts of asynchronous programming.
 
 Built With: - Python 3.11.4
 
