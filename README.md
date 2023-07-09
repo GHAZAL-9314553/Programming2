@@ -7,7 +7,7 @@ every assignment has its folder and its read me spicifically.
 
 By completing Assignment 1.1 and documenting our findings in the README file, we will demonstrate our understanding of software design principles and our ability to analyze and evaluate code quality.  
 
- Assignment 1.2 The purpose of this assignment is to create a simple model of the photosynthesis process through the implementation of various classes and their interactions. The assignment consists of three main tasks:
+ Assignment 1.2 The purpose of this assignment is to create a simple model of the photosynthesis process through the implementation of various classes and their interactions. 
 
 Built With: - Python 3.11.4
 
