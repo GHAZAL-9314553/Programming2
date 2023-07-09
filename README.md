@@ -27,6 +27,8 @@ dependencies and installation:
 
 Data Sources:
 
+Assignment 1.4  https://sport050.nl/sportaanbieders/alle-aanbieders/
+
 
 
 License: Distributed under the Mozilla license. See LICENSE for more information.
