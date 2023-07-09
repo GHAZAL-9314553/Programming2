@@ -15,6 +15,9 @@ By completing Assignment 1.1 and documenting our findings in the README file, we
 
  Assignment 2.1 The purpose of this assignment is to gain practical experience in implementing a client-server architecture and understanding the concepts of asynchronous programming.
 
+Assignment 2.2 purpose of this assignment is to introduce the concept of parallelization and demonstrate its benefits in terms of performance improvement when dealing with time-consuming tasks such as harvesting and downloading large amounts of data.
+
+
 Built With: - Python 3.11.4
 
 dependencies and installation:
