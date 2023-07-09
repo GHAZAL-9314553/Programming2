@@ -7,12 +7,14 @@ Creating a class called Atom to represent any atom in the periodic table.
 Implementing methods to retrieve the number of protons and the mass number of an atom.
 Handling isotope functionality by allowing the number of neutrons to be modified.
 Defining comparison methods for isotopes of the same element based on their mass numbers.
+
 Assignment 2: the Molecule class
 
 Creating a class called Molecule to represent a neutral group of atoms.
 Initializing a molecule with a list of tuples containing Atom objects and the number of atoms of each type.
 Implementing a printable representation of a molecule.
 Defining a method to combine two molecules into a new molecule.
+
 Assignment 3: The Chloroplast class
 
 Creating a class called Chloroplast to simulate the photosynthesis process.
