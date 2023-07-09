@@ -17,6 +17,7 @@ By completing Assignment 1.1 and documenting our findings in the README file, we
 
 Assignment 2.2 purpose of this assignment is to introduce the concept of parallelization and demonstrate its benefits in terms of performance improvement when dealing with time-consuming tasks such as harvesting and downloading large amounts of data.
 
+Assignment 2.3 The overall purpose of this assignment is to familiarize  with Dask and Dask-ML, understanding how to leverage parallel computing capabilities to perform efficient data processing and machine learning tasks.
 
 Built With: - Python 3.11.4
 
