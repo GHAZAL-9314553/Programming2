@@ -40,14 +40,21 @@ dependencies and installation:
 Data Sources:
 
 Assignment 1.4  https://sport050.nl/sportaanbieders/alle-aanbieders/
+
 Assignment 2.3   sklearn moon-dataset ,  prep.py script to obtain the New York City Airline data, consisting of multiple CSV files.
+
 Assignment 2.5 all_bacilli.tsv on assemblix2019
+
 Assignment 2.7  https://github.com/fenna/BFVM23DATASCNC5/blob/main/Study_Cases/Study_Case_Anomaly_Detection.ipynb
+
 Assignment 2.6 JobMaathuis code  
+
 https://insights.sei.cmu.edu/blog/software-engineering-for-machine-learning-characterizing-and-detecting-mismatch-in-machine-learning-systems/
+
 https://insights.sei.cmu.edu/blog/tackling-collaboration-challenges-in-the-development-of-ml-enabled-systems/
 
 License: Distributed under the  Apache License Version 2.0, January 2004
+
 See  http://www.apache.org/licenses/ for more information.
 
 Questions? Email: g.s.hosseini.japalagh@st.hanze.nl
