@@ -19,6 +19,8 @@ Assignment 2.2 purpose of this assignment is to introduce the concept of paralle
 
 Assignment 2.3 The overall purpose of this assignment is to familiarize  with Dask and Dask-ML, understanding how to leverage parallel computing capabilities to perform efficient data processing and machine learning tasks.
 
+assignment 2.5 aims to demonstrate the use of Dask Dataframe interface to efficiently process and analyze the large dataset of protein annotations. It is recommended to work on the dataset directly on the server without downloading it to a local machine. 
+
 Built With: - Python 3.11.4
 
 dependencies and installation:
@@ -35,6 +37,7 @@ Data Sources:
 
 Assignment 1.4  https://sport050.nl/sportaanbieders/alle-aanbieders/
 Assignment 2.3   sklearn moon-dataset ,  prep.py script to obtain the New York City Airline data, consisting of multiple CSV files.
+Assignment 2.5 all_bacilli.tsv on assemblix2019
 
 License: Distributed under the Mozilla license. See LICENSE for more information.
 
