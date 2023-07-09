@@ -21,6 +21,8 @@ Assignment 2.3 The overall purpose of this assignment is to familiarize  with Da
 
 assignment 2.5 aims to demonstrate the use of Dask Dataframe interface to efficiently process and analyze the large dataset of protein annotations. It is recommended to work on the dataset directly on the server without downloading it to a local machine. 
 
+assignment 2.6 The purpose of this assignment is to analyze the code of one of our classmates, apply the principles of good software discussed during the plenary part, and provide a report with our findings. The report should include a thorough description of the code base, its intended purpose, organization, scalability, and maintainability. Additionally, we are required to suggest at least one non-trivial refactor that would improve the code base, explaining the current state of the code and the proposed refactor.
+
 By completing  assignment 2.7 , we will gain practical experience in developing a software pipeline, integrating machine learning models, and implementing logging and file handling functionalities.
 
 Built With: - Python 3.11.4
@@ -41,6 +43,9 @@ Assignment 1.4  https://sport050.nl/sportaanbieders/alle-aanbieders/
 Assignment 2.3   sklearn moon-dataset ,  prep.py script to obtain the New York City Airline data, consisting of multiple CSV files.
 Assignment 2.5 all_bacilli.tsv on assemblix2019
 Assignment 2.7  https://github.com/fenna/BFVM23DATASCNC5/blob/main/Study_Cases/Study_Case_Anomaly_Detection.ipynb
+Assignment 2.6 JobMaathuis code  
+https://insights.sei.cmu.edu/blog/software-engineering-for-machine-learning-characterizing-and-detecting-mismatch-in-machine-learning-systems/
+https://insights.sei.cmu.edu/blog/tackling-collaboration-challenges-in-the-development-of-ml-enabled-systems/
 
 License: Distributed under the  Apache License Version 2.0, January 2004
 See  http://www.apache.org/licenses/ for more information.
