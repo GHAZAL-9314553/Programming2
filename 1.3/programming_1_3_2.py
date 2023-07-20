@@ -1,3 +1,5 @@
+# Good work
+
 def apply_functions(data, *functions):
     """
     Applies a list of functions to each element in the data list and returns a nested list of results.

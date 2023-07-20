@@ -1,3 +1,7 @@
+<!--
+We won't grade this elaboration as it is not part of the mandatory assignments of this module
+-->
+
 The purpose of this assignment is to analyze a codebase and evaluate its adherence to certain software design principles and concepts. The assignment involves several exercises, each focusing on a different aspect of the code. The exercises include:
 
 Exercise 1: The factory

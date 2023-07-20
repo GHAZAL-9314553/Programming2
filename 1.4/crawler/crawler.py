@@ -11,6 +11,7 @@ class Crawler:
         self.url = "https://sport050.nl/sportaanbieders/alle-aanbieders/"
         self.ctx = self.hack_ssl()
 
+    # Good observeration that this method could be made static
     @staticmethod
     def hack_ssl():
         """
@@ -23,6 +24,8 @@ class Crawler:
         ctx.verify_mode = ssl.CERT_NONE
         return ctx
 
+    # Good observation that this method could be static, but why not make all of 
+    # this kind of methods static?
     @staticmethod
     def remove_html_tags(text):
         """
