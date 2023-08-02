@@ -50,6 +50,7 @@ class Reader:
         """
         self.file_path = file_path
         self.stride = stride
+        # Why does the reader needs this header_line? Isn' that something for the convertor?
         self.header_line = linecache.getline(self.file_path, 1).strip('\n').split(',')
         self.start_line = 2
         self.observers = set()
@@ -101,6 +102,9 @@ class Reader:
             self.start_line += self.stride
             # Notify observers with the new data
             self.notify_observers(result)
+            # who are you returning this new data to?
+            # Normally, a observable keeps its state internal and only
+            # uses `notify` to let the observers know that state has changed.
             return result
         else:
             return ''
@@ -109,6 +113,9 @@ class Reader:
         """
         Starts reading the CSV file and notifying observers with the data.
         """
+
+        # Here you're basically hanging the main thread. The responsibility of 
+        # propagating the observable should not be within the observable itself
         while True:
             lines = self.get_lines()
             if lines == '':
@@ -168,6 +175,8 @@ class AverageYear:
         self.ax.grid(True)
         plt.pause(0.01)
         plt.show()
+
+
 class AverageMonth:
     def __init__(self):
         """

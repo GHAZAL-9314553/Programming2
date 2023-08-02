@@ -1,3 +1,4 @@
+# Good work
 class Atom:
     def __init__(self, symbol: str, atomic_number: int, neutrons: int):
         """
@@ -13,6 +14,11 @@ class Atom:
         self.neutrons = neutrons
 
     def proton_number(self) -> int:
+        # I know that PEP requires you to document all the methods, but personally 
+        # (and more important persons than me) dislike methods whose docstring is 
+        # than the method itself, especially if the method is clear in itself (like 
+        # and setters).
+
         """
         Returns the atomic number (number of protons) of the atom.
 
@@ -51,6 +57,9 @@ class Atom:
         Returns:
             bool: True if the mass number of self is less than other, False otherwise.
         """
+
+        # you could have abstracted away this check, as you are 
+        # performing the same in all of these methods.
         if not isinstance(other, Atom) or self.symbol != other.symbol:
             raise ValueError("Cannot compare atoms of different elements")
         return self.mass_number() < other.mass_number()
@@ -124,6 +133,8 @@ class Molecule:
         Returns:
             str: The string representation of the molecule.
         """
+
+        # could be done in a one-liner
         formula = ""
         for atom, count in self.atom_counts:
             symbol = atom.symbol
@@ -149,6 +160,8 @@ class Molecule:
             raise ValueError("Only molecules can be added together")
         atom_counts = self.atom_counts + other.atom_counts
         return Molecule(atom_counts)
+    
+# Keep newlines between seperate classes
 class Chloroplast:
     def __init__(self):
         """

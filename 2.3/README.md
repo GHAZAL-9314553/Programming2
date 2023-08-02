@@ -1,3 +1,6 @@
+<!--
+We won't grade this elaboration as it is not part of the mandatory assignments of this module
+-->
 # Programming2
 The purpose of this assignment is to introduce Dask, a flexible library for parallel computing in Python. The exercises aim to provide hands-on experience with Dask and Dask-ML. Here's a summary of each exercise:
 

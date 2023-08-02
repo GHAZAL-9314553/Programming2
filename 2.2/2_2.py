@@ -1,3 +1,4 @@
+# Good
 import xml.etree.ElementTree as ET
 from Bio import Entrez
 import time
@@ -26,6 +27,7 @@ def main():
     """
     Main entry point of the program.
     """
+    # Should not put your api-key in your repo
     api_key = '8fcb0cec66b6442980be82658cb302b39408'
     article_id = '30049270'  # PubMed ID of the article
 

@@ -21,6 +21,12 @@ class ServerHandler(http.server.SimpleHTTPRequestHandler):
 
             if path == "/all":
                 # Retrieve all data
+
+                # Why are you making a new DataProvider for each request?
+                # You could also just make one in the initializer for this class,
+                # as it is basically immutable. Also, you are making an object
+                # independent of the `if`statement, so you could do it outside of the `if`.
+
                 data = DataProvider().get_data()
                 self.send_response(200)
                 self.send_header("Content-Type", "application/json")
@@ -59,6 +65,7 @@ class ServerHandler(http.server.SimpleHTTPRequestHandler):
 
         else:
             # Call the parent class's do_GET method for standard handling of other paths
+            # Ok, but you could also issue a 404-error.
             super().do_GET()
 
 class DataProvider:
@@ -78,6 +85,7 @@ class DataProvider:
         """
         df = pd.read_csv("C:/code/data.csv")  # Assuming data.csv is in the same directory as the script
 
+        # You are kind of doing the same checks here as you did in the controller...
         if year is None:
             # Retrieve all data
             data = df.to_json(orient="records")
